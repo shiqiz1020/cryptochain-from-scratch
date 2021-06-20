@@ -1,7 +1,7 @@
 const Block = require('./block');
 // const Transaction = require('../wallet/transaction');
 // const Wallet = require('../wallet');
-const { cryptoHash } = require('./crypto-hash');
+const { cryptoHash } = require('../util/crypto-hash');
 // const { REWARD_INPUT, MINING_REWARD } = require('../config');
 
 class Blockchain {
